@@ -1,0 +1,12 @@
+{
+  "name": "library",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Jey-T/Example-git-npm-package.git",
+  "author": "Jey-T <jeantheo.sambafouala@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/library","packages/test_app"
+  ]
+}
